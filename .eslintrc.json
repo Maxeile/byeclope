@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "vitest/globals": true
+  },
+  "plugins": ["react", "vitest"],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "rules": {}
+}
